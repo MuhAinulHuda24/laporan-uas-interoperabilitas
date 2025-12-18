@@ -1,13 +1,36 @@
-= Integrasi & Git Branching
 
-Dikerjakan oleh QA Lead[cite: 42].
+= Hasil Akhir Integrasi Data
 
-== Strategi Branching
-Struktur branch yang digunakan sesuai instruksi[cite: 49, 50, 51, 52, 53]:
-- `feature/backend-setup`
-- `feature/ui-widgets`
-- `feature/auth-nav`
-- `feature/cart-state`
-- `feature/testing-docs`
+== Contoh Output JSON Final
+Berikut adalah contoh hasil akhir setelah data dari ketiga vendor dinormalisasi dan digabungkan:
 
-// Masukkan Screenshot Git Graph di sini
+```json
+[
+	{
+		"id": "A001",
+		"nama": "Kopi Bubuk 100g",
+		"harga_final": 13500,
+		"status": "Tersedia",
+		"sumber": "Vendor A"
+	},
+	{
+		"id": "TSHIRT-001",
+		"nama": "Kaos Ijen Crater",
+		"harga_final": 75000,
+		"status": "Tersedia",
+		"sumber": "Vendor B"
+	},
+	{
+		"id": "501",
+		"nama": "Nasi Tempong (Recommended)",
+		"harga_final": 22000,
+		"status": "Tersedia",
+		"sumber": "Vendor C"
+	}
+]
+```
+
+== Penjelasan
+- Harga produk Vendor A sudah didiskon 10%.
+- Produk "Nasi Tempong" dari Vendor C mendapat label "(Recommended)" karena kategori "Food".
+- Semua harga bertipe Integer dan status distandarkan.

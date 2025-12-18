@@ -13,17 +13,19 @@
     #text(size: 16pt, weight: "bold")[POLITEKNIK NEGERI BANYUWANGI]
     #v(2em)
     
+
     #text(size: 18pt, weight: "bold")[#title]
     #v(1em)
-    #text(size: 14pt)[Mobile Application Development]
+    #text(size: 14pt)[Integrasi Data UMKM Banyuwangi Marketplace]
     #linebreak()
-    #text(size: 14pt)[Semester #semester] [cite: 4]
+    #text(size: 14pt)[Semester #semester]
     
     #v(4em)
     #text(size: 14pt, weight: "bold")[Disusun Oleh Kelompok #team_number:]
     #v(1em)
     
     // Tabel Anggota
+
     #table(
       columns: (1fr, auto, 1fr),
       stroke: none,

@@ -1,27 +1,32 @@
-= Bukti Keaslian Kode (Strict Mode)
 
-Sesuai instruksi ujian untuk mencegah penggunaan *code generator* otomatis[cite: 8].
+= Vendor A: WarungLegacy
 
-== Watermark Code
-Berikut adalah bukti penggunaan suffix inisial pada variabel Widget dan Fungsi:
+== Simulasi Sistem Lama
+Vendor A (WarungLegacy) menggunakan struktur data sederhana, seluruh tipe data berupa STRING, termasuk harga.
 
-// Ganti dengan screenshot kode Anda
-// #image("../images/watermark_code.png", width: 80%)
-*Penjelasan:* Variabel `buttonLogin_budi` menunjukkan kode dibuat oleh Budi (UI Engineer)[cite: 9].
-
-== Logic Trap (Diskon NIM)
-Implementasi logika bisnis unik "Ganjil 5%, Genap Gratis Ongkir"[cite: 10].
-
-```dart
-// Contoh snippet kode (Logic Trap)
-void hitungDiskon_dani(String nim) {
-  int lastDigit = int.parse(nim.characters.last);
-  if (lastDigit % 2 != 0) {
-    // Logika Ganjil
-    print("Diskon 5%");
-  } else {
-    // Logika Genap
-    print("Gratis Ongkir");
+== Contoh Output JSON Vendor A
+```json
+[
+  {
+    "kd_produk": "A001",
+    "nm_brg": "Kopi Bubuk 100g",
+    "hrg": "15000",
+    "ket_stok": "ada"
+  },
+  {
+    "kd_produk": "A002",
+    "nm_brg": "Keripik Pisang",
+    "hrg": "12000",
+    "ket_stok": "habis"
   }
-}
+]
 ```
+
+== Penjelasan Struktur
+- `kd_produk`: Kode produk (String)
+- `nm_brg`: Nama barang (String)
+- `hrg`: Harga (String, harus dikonversi ke Integer saat normalisasi)
+- `ket_stok`: Status stok, "ada" atau "habis" (String)
+
+== Catatan
+Pada proses integrasi, data dari Vendor A akan diberikan diskon otomatis 10% pada harga final.

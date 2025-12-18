@@ -14,7 +14,7 @@
     numbering: "1",
   )
   set text(font: "Times New Roman", size: 12pt, lang: "id")
-  
+
   // Setup Heading (Bab & Sub-bab)
   set heading(numbering: "1.1")
   show heading.where(level: 1): it => {
@@ -25,8 +25,6 @@
     v(1em)
   }
 
-  // Cover Page Logic ada di file terpisah (cover.typ) agar rapi, 
-  // tapi kita panggil fungsi layout utamanya di sini.
-  
+  // Cover Page Logic ada di file terpisah (cover.typ)
   body
 }
