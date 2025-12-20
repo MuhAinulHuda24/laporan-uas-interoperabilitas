@@ -1,3 +1,5 @@
+= Vendor B: DistroModern
+
 == Latar Belakang Vendor B
 
 Vendor B, yang bernama DistroModern, merupakan sistem aplikasi kasir modern yang telah menerapkan standar penamaan dan praktik terbaik internasional. Berbeda dengan Vendor A (WarungLegacy) yang masih menggunakan konvensi lokal dan tipe data primitif, DistroModern sudah dirancang dengan arsitektur yang matang dan mengikuti best practices pengembangan perangkat lunak modern.

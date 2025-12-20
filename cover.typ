@@ -9,7 +9,7 @@
   align(center)[
     #v(2em)
     // Ganti dengan logo kampus Anda jika ada
-    // #image("images/logo.png", width: 4cm) 
+    #image("images/logo.png", width: 4cm) 
     #text(size: 16pt, weight: "bold")[POLITEKNIK NEGERI BANYUWANGI]
     #v(2em)
     
