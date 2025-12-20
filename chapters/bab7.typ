@@ -115,4 +115,3 @@ Dengan complexity yang tinggi, sistem integrasi sulit dipahami oleh developer la
 
 Proyek Integrasi Data UMKM Banyuwangi Marketplace telah mencapai tujuannya dengan sukses. Sistem yang dikembangkan tidak hanya berhasil mengintegrasikan data dari tiga vendor yang berbeda, tetapi juga menetapkan foundation yang solid untuk pengembangan marketplace lebih lanjut. Dengan menerapkan saran-saran yang telah dikemukakan, marketplace dapat terus berkembang dengan reliability, performance, dan scalability yang lebih baik.
 
-Tim development yang terdiri dari tiga developer untuk masing-masing vendor dan satu Lead Integrator telah berhasil berkolaborasi dengan baik, menunjukkan pentingnya koordinasi dan komunikasi dalam mengintegrasikan sistem-sistem yang kompleks. Pengalaman ini dapat menjadi valuable lesson untuk proyek-proyek interoperabilitas sistem informasi di masa depan, baik dalam konteks akademis maupun industri.
