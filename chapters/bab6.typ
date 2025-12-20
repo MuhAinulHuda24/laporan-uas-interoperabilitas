@@ -1,3 +1,5 @@
+= Testing dan Validasi Sistem
+
 == Rencana Testing
 
 Testing adalah fase kritis dalam pengembangan sistem integrasi untuk memastikan bahwa data dari ketiga vendor berhasil diambil, dinormalisasi, dan diintegrasikan dengan benar sesuai dengan unified schema yang telah ditentukan. Rencana testing untuk proyek Banyuwangi Marketplace meliputi pengujian pada setiap tahap integrasi: testing API individual vendor, testing normalisasi data masing-masing vendor, dan testing hasil akhir integrasi.

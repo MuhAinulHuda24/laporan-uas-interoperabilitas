@@ -1,3 +1,5 @@
+= Vendor C: Resto & Kuliner
+
 == Latar Belakang Vendor C
 
 Vendor C merupakan sistem Point of Sale (POS) yang digunakan oleh restoran dan warung kuliner di wilayah Banyuwangi. Karakteristik utama dari usaha restoran/warung kuliner ini adalah beragamnya menu yang ditawarkan, mulai dari makanan berat hingga minuman, dengan sistem pricing yang mencakup pajak untuk setiap item. Vendor C menangani menu makanan dan minuman lokal Banyuwangi yang kaya ragam, seperti Nasi Tempong, Soto Ayam, Lumpia Goreng, dan berbagai minuman tradisional.

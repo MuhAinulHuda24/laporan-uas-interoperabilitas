@@ -1,3 +1,5 @@
+= Normalisasi dan Integrasi Data
+
 == Konsep Normalisasi Data
 
 Normalisasi data adalah proses mengkonversi dan menyeragamkan data dari berbagai sumber yang memiliki format, struktur, dan tipe data berbeda ke dalam satu format unified yang telah ditentukan. Dalam konteks proyek Banyuwangi Marketplace, normalisasi adalah langkah kritis yang memungkinkan data dari tiga vendor dengan karakteristik unik yang berbeda untuk dapat digabungkan dan ditampilkan dalam satu dashboard terpusat.

@@ -5,10 +5,10 @@
 // Data Kelompok (Sesuaikan dengan peran di soal)
 
 #let members_data = (
-  (name: "Mahasiswa 1", nim: "NIM001", role: "Vendor A (WarungLegacy)"),
-  (name: "Mahasiswa 2", nim: "NIM002", role: "Vendor B (DistroModern)"),
-  (name: "Mahasiswa 3", nim: "NIM003", role: "Vendor C (Resto & Kuliner)"),
-  (name: "Mahasiswa 4", nim: "NIM004", role: "Lead Integrator"),
+  (name: "Muhammad Ainul Huda", nim: "362458302075", role: "Vendor A (WarungLegacy)"),
+  (name: "Danil Amrulloh", nim: "362458302131", role: "Vendor B (DistroModern)"),
+  (name: "M. Hilmi Zamzami", nim: "362458302071", role: "Vendor C (Resto & Kuliner)"),
+  (name: "M. Abdul Ghofur", nim: "362458302016", role: "Lead Integrator"),
 )
 
 
